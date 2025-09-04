@@ -1,72 +1,35 @@
-# Chrome Extension Template with TypeScript and Tailwind CSS
+# Image Converter Chrome Extension
 
-This template provides a foundation for creating Chrome extensions using TypeScript and Tailwind CSS.
+A lightweight Chrome extension that allows quick conversion of images to different formats directly from the context menu.
 
 ## Features
+- Convert images to PNG or JPG
+- Context menu integration
+- Built with TypeScript and TailwindCSS
+- Zero dependencies for core functionality
 
-- TypeScript support
-- Tailwind CSS for styling
-- Webpack configuration for development and production
-- ESLint and Prettier setup
-- Popup, background, and content script examples
-
-## Getting Started
-
-1. Install dependencies:
+## Installation
+1. From Chrome Web Store [Link]
+2. Manual installation:
    ```bash
+   git clone [your-repo-url]
    npm install
-   ```
-
-2. Start development:
-   ```bash
-   npm run dev
-   ```
-
-3. Build for production:
-   ```bash
    npm run build
    ```
-
-4. Load the extension in Chrome:
-   - Open Chrome and go to `chrome://extensions/`
-   - Enable "Developer mode"
-   - Click "Load unpacked"
-   - Select the `dist` directory
-
-## Project Structure
-
-```
-├── public/              # Static files
-│   ├── manifest.json   # Chrome extension manifest
-│   ├── popup.html      # Popup HTML file
-│   └── icons/          # Extension icons
-├── src/                # Source files
-│   ├── popup.ts        # Popup script
-│   ├── background.ts   # Background script
-│   ├── content.ts      # Content script
-│   └── index.css       # Global styles
-├── package.json        # Dependencies and scripts
-├── webpack.config.cjs  # Webpack configuration
-├── tsconfig.json      # TypeScript configuration
-├── tailwind.config.js # Tailwind CSS configuration
-└── postcss.config.cjs # PostCSS configuration
-```
+   Then load `dist` folder as unpacked extension in Chrome
 
 ## Development
-
-- `npm run dev`: Start development mode with hot reloading
-- `npm run build`: Build for production
-- `npm run watch`: Watch for changes and rebuild
-- `npm run lint`: Run ESLint
-- `npm run format`: Format code with Prettier
-
-## Adding New Features
-
-1. Create new TypeScript files in the `src` directory
-2. Import and use them in `popup.ts` or `content.ts`
-3. Add new styles using Tailwind CSS classes
-4. Update the manifest.json if you need new permissions
+```bash
+npm install     # Install dependencies
+npm run dev     # Development build with watch mode
+npm run build   # Production build
+```
 
 ## Contributing
+Pull requests are welcome. For major changes, please open an issue first.
 
-Feel free to submit issues and enhancement requests! 
+## License
+MIT
+
+## Support
+☕ [Buy me a coffee](https://ko-fi.com/mundanesunrise)
