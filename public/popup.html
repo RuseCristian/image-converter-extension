@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Image Converter</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: #ffffff;
+        min-width: 320px;
+        min-height: 180px;
+      }
+
+      .container {
+        padding: 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 180px;
+        background: linear-gradient(to bottom right, #ffffff, #f7f7f7);
+        box-shadow: inset 0 0 20px rgba(0,0,0,0.02);
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #1a1a1a;
+        margin: 0 0 12px 0;
+      }
+
+      p {
+        font-size: 14px;
+        color: #666;
+        margin: 0 0 24px 0;
+        line-height: 1.5;
+      }
+
+      .coffee-button {
+        display: inline-flex;
+        align-items: center;
+        background-color: #FF5F5F;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        box-shadow: 0 2px 8px rgba(255, 95, 95, 0.2);
+      }
+
+      .coffee-button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(255, 95, 95, 0.3);
+        background-color: #FF4545;
+      }
+
+      .coffee-icon {
+        margin-right: 8px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Converter</h1>
+      <p>Right-click on any image to convert it to PNG or JPG</p>
+      <a href="https://ko-fi.com/mundanesunrise" target="_blank" class="coffee-button">
+        <span class="coffee-icon">☕</span>
+        Support this project
+      </a>
+    </div>
+  </body>
+</html>
